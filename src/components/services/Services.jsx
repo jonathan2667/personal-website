@@ -17,7 +17,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
-                        <h3 className="services__title">Product <br/> Designer</h3>
+                        <h3 className="services__title">Software <br/> Developer</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -26,33 +26,33 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Product Designer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                            <h3 className="services__modal-title">Software Developer</h3>
+                            <p className="services__modal-description">Software Developer: Expert in C#, C++, Python, Java. Innovative, problem-solving Computer Science student. Seeks challenging tech innovation roles.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop the user interface.</p>
+                                    <p className="services__modal-info">Tech Innovator: Fluent in C#, Python; excels in algorithms, seeks software development opportunities.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development.</p>
+                                    <p className="services__modal-info">CS Student Developer: Strong in Java, C++; eager for real-world tech challenges.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I create ux element interactions.</p>
+                                    <p className="services__modal-info">Problem Solver: Skilled in software engineering, algorithms; aiming for impactful projects.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I position your company brand.</p>
+                                    <p className="services__modal-info">Software Craftsman: Python, C# proficiency; passionate about data structures, tech solutions.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                    <p className="services__modal-info">Innovative Programmer: Advanced software development skills; Babes-Bolyai talent eager for challenging tech roles.</p>
                                 </li>
                             </ul>
                         </div>
@@ -62,7 +62,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">Ui/Ux <br/> Designer</h3>
+                        <h3 className="services__title">Web <br/> Developer</h3>
                     </div>
 
                     <span onClick={() => toggleTab(2)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -71,33 +71,33 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Ui/Ux Designer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                            <h3 className="services__modal-title">Web Developer</h3>
+                            <p className="services__modal-description">Custom Website Creation: Offering bespoke, SEO-enhanced web development with WordPress/Elementor, tailored to boost engagement and functionality.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop the user interface.</p>
+                                    <p className="services__modal-info">UI Crafting: Enhancing user experience.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development.</p>
+                                    <p className="services__modal-info">Web Development: Crafting digital landscapes</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I create ux element interactions.</p>
+                                    <p className="services__modal-info">UX Design: Interactive element creation.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I position your company brand.</p>
+                                    <p className="services__modal-info">Brand Boosting: Strategic online positioning.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                    <p className="services__modal-info">Mockup Design: Conceptualizing digital products.</p>
                                 </li>
                             </ul>
                         </div>
@@ -107,7 +107,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
-                        <h3 className="services__title">Visual <br/> Designer</h3>
+                        <h3 className="services__title">Professional <br/> Tutoring</h3>
                     </div>
 
                     <span onClick={() => toggleTab(3)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -116,33 +116,28 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Visual Designer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                            <h3 className="services__modal-title">Professional Tutoring</h3>
+                            <p className="services__modal-description">Expert tutoring in math and algorithms. Personalized, one-on-one sessions tailored to elevate your understanding and performance.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop the user interface.</p>
+                                    <p className="services__modal-info">Olympiad Excellence: 2nd & 3rd at regional level, now guiding students to achieve their best.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development.</p>
+                                    <p className="services__modal-info">UBB Math Admissions Coach: Specialized in Cluj's Math & CS University entrance exams.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I create ux element interactions.</p>
+                                    <p className="services__modal-info">Z-Builders Algorithm Tutor: Elevated 10+ students to programming contest success.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I position your company brand.</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                    <p className="services__modal-info">Data Structures Mentor: Empowered students to programming contest victories through focused algorithm training.</p>
                                 </li>
                             </ul>
                         </div>

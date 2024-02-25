@@ -6,22 +6,22 @@ export const Data = [
     {
       id: 1,
       image: Image1,
-      title: "Jhon Doe",
+      title: "Borodi Bogdan",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Highly dedicated, consistently exceeds goals with outstanding diligence and skill.",
     },
     {
       id: 2,
       image: Image2,
-      title: "Harry Clinton",
+      title: "Dorothea Chiciudean",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Exceptionally talented, combines expertise and creativity for innovative solutions.",
     },
     {
       id: 3,
       image: Image3,
-      title: "Sara Cill",
+      title: "Moca Andrei",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Remarkably reliable, delivers superior results through meticulous attention to detail.",
     },
   ];
