@@ -13,7 +13,7 @@ export const Data = [
     {
       id: 2,
       image: Image2,
-      title: "Dorothea Chiciudean",
+      title: "Luscan Alexandru",
       description:
         "Exceptionally talented, combines expertise and creativity for innovative solutions.",
     },
