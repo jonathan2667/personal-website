@@ -27,7 +27,7 @@ const Dorothea = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Hello World!</h3>
+                            <h3 className="services__modal-title">Hello!</h3>
                             <p className="services__modal-description">♡</p>
 
                             <ul className="services__modal-services grid">
