@@ -1,3 +1,14 @@
+.services__modal-info {
+    font-size: var(--small-font-size); 
+    word-wrap: break-word; /* Ensure words wrap and do not overflow */
+    overflow-wrap: break-word; /* Alternative to word-wrap for breaking long words */
+}
+
+
+.services__modal-content {
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
 .services__container {
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
