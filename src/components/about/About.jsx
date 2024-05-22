@@ -19,7 +19,7 @@ const About = () => {
                     <p className="about__description">Driven computer science student with an entrepreneurial spirit 
                     and sharp critical thinking <br></br> Ready to use my software development skills to tackle real-world problems and advance technology.</p>
 
-                     <a href = "https://drive.google.com/file/d/17S4Lgget31JTvUHzt_EAsCaGQlPdHwBx/view?usp=sharing" className="button button--flex">Resume
+                     <a href = "https://drive.google.com/" className="button button--flex">Resume
                         <svg
                     class="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
