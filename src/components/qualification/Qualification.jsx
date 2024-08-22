@@ -29,7 +29,7 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Bachelor’s degree - Computer Science</h3>
-                                <span className="qualification__subtitle">Romania | Babes-Bolyai University</span>
+                                <span className="qualification__subtitle">Cluj, Romania | Babes-Bolyai University</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 2023 - Present
                                 </div>
@@ -51,7 +51,7 @@ const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification__title">High-School</h3>
-                                <span className="qualification__subtitle">Romania | Liviu Rebreanu National College</span>
+                                <span className="qualification__subtitle">Bistrita, Romania | Liviu Rebreanu National College</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 2019 - 2023
                                 </div>
@@ -61,7 +61,7 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Middle School</h3>
-                                <span className="qualification__subtitle">Canada | George-Vanier High School</span>
+                                <span className="qualification__subtitle">Montreal, Canada | George-Vanier High School</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 2017 - 2019
                                 </div>
@@ -92,10 +92,28 @@ const Qualification = () => {
                     </div>
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+                        
+                    <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Software Engineer Intern</h3>
+                                <span className="qualification__subtitle">Vienna, Austria | Bitmovin</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> 06/2024 - 09/2024
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Web Developer</h3>
-                                <span className="qualification__subtitle">Romania | Codeverse SRL</span>
+                                <h3 className="qualification__title">Full Stack Developer</h3>
+                                <span className="qualification__subtitle">Cluj, Romania | Codeverse SRL</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 09/2022 - 01/2023
                                 </div>
@@ -107,7 +125,7 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                        <div className="qualification__data">
+                        {/* <div className="qualification__data">
                             <div></div>
 
                             <div>
@@ -137,7 +155,7 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

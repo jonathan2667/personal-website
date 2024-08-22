@@ -30,7 +30,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">mogovan.jonathan@protonmail.com</span>
 
-                            <a href="mailto:mogovan.jonathan@protonmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="mailto:mogovan.jonathan@protonmail.com" className="contact__button">Contact me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -39,7 +39,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">+40 747 104 998</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=40747104998&text=Hello!" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=40747104998&text=Hello!" className="contact__button">Contact me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -48,13 +48,13 @@ const Contact = () => {
                             <h3 className="contact__card-title">Messenger</h3>
                             <span className="contact__card-data">user.jonathanmogovan</span>
 
-                            <a href="https://m.me/jonathanmogovan" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://m.me/jonathanmogovan" className="contact__button">Contact me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
+                    <h3 className="contact__title">Write me about your project</h3>
 
                     <form  ref={form} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">

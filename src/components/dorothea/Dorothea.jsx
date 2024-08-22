@@ -41,10 +41,10 @@ const Dorothea = () => {
                     </div>
                 </div>
 
-                {/* <div className="services__content">
+                { <div className="services__content">
                     <div>
-                        <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">Web <br/> Developer</h3>
+                        <i className="uil uil-heart services__icon"></i>
+                        <h3 className="services__title">Test Letter 2</h3>
                     </div>
 
                     <span onClick={() => toggleTab(2)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -53,10 +53,10 @@ const Dorothea = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Web Developer</h3>
-                            <p className="services__modal-description">Custom Website Creation: Offering bespoke, SEO-enhanced web development with WordPress/Elementor, tailored to boost engagement and functionality.</p>
+                            <h3 className="services__modal-title">Hey Dorothea </h3>
+                            <p className="services__modal-description">It's 8/21/2024 and I still love you infinetely. I have no idea when you'll see this, but somehow please leave me a sign :)</p>
 
-                            <ul className="services__modal-services grid">
+                            {/* <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">UI Crafting: Enhancing user experience.</p>
@@ -81,12 +81,12 @@ const Dorothea = () => {
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">Mockup Design: Conceptualizing digital products.</p>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>
 
-                <div className="services__content">
+                /*<div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
                         <h3 className="services__title">Professional <br/> Tutoring</h3>
