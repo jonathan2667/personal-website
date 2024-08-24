@@ -86,9 +86,21 @@
     max-width: 800px;
     text-align: center;
     margin: 0 auto; /* Center the block */
-    padding: 0 1.5rem; /* Ensure padding for consistent alignment */}
+    padding: 0 1.5rem; /* Ensure padding for consistent alignment */
+}
+
+.sign-language-image {
+    max-width: 600px; /* Ensures the image doesn't exceed a reasonable width */
+    width: 100%; /* Makes the image responsive */
+    margin: 1.5rem auto; /* Adds space above and below the image and centers it */
+    display: block; /* Centers the image within its container */
+    border-radius: 1rem; /* Matches the style of other elements with rounded corners */
+    box-shadow: var(--shadow); /* Adds a subtle shadow like your video element */
+    padding-bottom: 50px;
+}
 
 
+    
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -107,6 +119,10 @@
     .skills__content {
         padding: 1.5rem;
     }
+    .sign-language-image {
+        max-width: 80%; /* Limits the image width to 80% of its container */
+    }
+ 
 }
 
 /* For small devices */
@@ -118,3 +134,7 @@
         font-size: var(--small-font-size);
     }
 }
+
+
+
+

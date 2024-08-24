@@ -102,7 +102,11 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Software Engineer Intern</h3>
+                            <h3 className="qualification__title">
+                                <a href="https://jonathanmogovan.com/bitmovin" target="_blank" rel="noopener noreferrer"  className="unstyled-link">
+                                    Software Engineer Intern
+                                </a>
+                            </h3>
                                 <span className="qualification__subtitle">Vienna, Austria | Bitmovin</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 06/2024 - 09/2024

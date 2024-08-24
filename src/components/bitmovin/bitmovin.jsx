@@ -10,9 +10,13 @@ const Bitmovin = () => {
             <h2 className="section__title">My Bitmovin Internship</h2>
             <span className="section__subtitle">AI Sign Language Project</span>
 
+            <img src={require("../../assets/Sign-Language.png")} alt="Sign Language" className="sign-language-image" />
+
+
             <p className="bitmovin__description">
-                During my Bitmovin internship, I developed an AI-driven sign language project that was recognized as the best internship project of 2024. This project involved creating a seamless integration of sign language overlays in video content, significantly enhancing accessibility for deaf and hard-of-hearing individuals.
+                During my Bitmovin internship, I developed an <span className="highlight">AI-driven sign language feature</span> that is fully <span className="highlight">integrated into Bitmovin's video player.</span> This project was recognized as the <span className="highlight">best internship project of 2024</span> and involved creating a seamless integration of sign language overlays in video content, significantly enhancing accessibility for <span className="highlight">deaf and hard-of-hearing individuals</span> on Bitmovin's player.
             </p>
+
 
             <div className="bitmovin__container container">
 
@@ -34,8 +38,7 @@ const Bitmovin = () => {
                     <h3 className="section__title">My Reflection</h3>
                     <span className="section__subtitle">What I Learned</span>
                     <p>
-                        This internship has been a transformative experience, deepening my understanding of accessibility in software development. Working on a project that directly impacts the lives of deaf and hard-of-hearing individuals has been incredibly rewarding. The challenges of integrating this feature across multiple platforms have also enhanced my problem-solving skills and my understanding of cross-platform development.
-                    </p>
+                    Reflecting on my experience, it was <span className="highlight">incredible!</span> Delving into <span className="highlight">research and development</span>, while integrating <span className="highlight">AI-driven solutions</span> across multiple platforms, significantly expanded my understanding of what it means to be a software engineer. <br></br> The wealth of knowledge I gained in such a short period is largely due to the invaluable guidance from my  <span className="highlight">mentors,</span> who offered profound advice on growing as a young professional. I am immensely grateful to everyone at Bitmovin for the <span className="highlight">unforgettable experiences and team events</span>, which were not only enjoyable but deeply enriching. <br></br>This internship allowed me to <span className="highlight">develop personally</span> by connecting with new people from whom I learned and deeply admire, and it also enabled me to <span className="highlight">grow professionally</span> by enhancing my<span className="highlight"> problem-solving skills</span> and deepening my understanding of <span className="highlight">AI and cross-platform development.  </span>                  </p>
                 </div>
 
                 <div className="bitmovin__feedback">

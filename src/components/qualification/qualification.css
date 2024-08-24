@@ -114,3 +114,12 @@
     }
 }
   
+
+.unstyled-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.unstyled-link:hover {
+    text-decoration: none;
+}

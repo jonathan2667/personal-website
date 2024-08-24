@@ -216,3 +216,11 @@ img {
     margin-right: var(--mb-1);
   }
 }
+
+
+
+
+.highlight {
+  font-weight: var(--font-semi-bold); /* Makes the text bold */
+  color: var(--body-color-dark); /* Darker title color */
+}
