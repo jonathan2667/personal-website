@@ -132,7 +132,7 @@ const Services = () => {
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Z-Builders Algorithm Tutor: Elevated 10+ students to programming contest success.</p>
+                                    <p className="services__modal-info">Z-Builders Algorithm Tutor: Elevated 30+ students to programming contest success.</p>
                                 </li>
 
                                 <li className="services__modal-service">
