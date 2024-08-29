@@ -14,7 +14,7 @@ const Bitmovin = () => {
 
 
             <p className="bitmovin__description">
-                During my Bitmovin internship, I developed an <span className="highlight">AI-driven sign language feature</span> that is fully <span className="highlight">integrated into Bitmovin's video player.</span> This project was recognized as the <span className="highlight">best internship project of 2024</span> and involved creating a seamless integration of sign language overlays in video content, significantly enhancing accessibility for <span className="highlight">deaf and hard-of-hearing individuals</span> on Bitmovin's player.
+                During my Bitmovin internship, I developed an <span className="highlight">AI-driven sign language feature</span> that is fully <span className="highlight">integrated into Bitmovin's video player.</span> This project was recognized as <span className="highlight">one of the best internship project of 2024</span> and involved creating a seamless integration of sign language overlays in video content, significantly enhancing accessibility for <span className="highlight">deaf and hard-of-hearing individuals</span> on Bitmovin's player.
             </p>
 
 
