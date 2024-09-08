@@ -3,6 +3,7 @@ import "./bitmovin.css";
 import '../../App.css';
 import DemoVideo from "../../assets/WebPlayer-Demo.mp4";
 import Skills from "../skills_bitmovin/Skills";
+import ConfirmationLetter from "../../assets/Letter_of_Confirmation_Internship_2024_Mogovan_Jonathan.pdf";
 
 const Bitmovin = () => {
     return (
@@ -42,8 +43,8 @@ const Bitmovin = () => {
                 </div>
 
                 <div className="bitmovin__feedback">
-                    <a href="path_to_your_feedback_letter.pdf" className="button button--flex">View My Feedback
-                        <svg
+                <a href={ConfirmationLetter} className="button button--flex" target="_blank" rel="noopener noreferrer">View My Feedback
+                <svg
                             className="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
