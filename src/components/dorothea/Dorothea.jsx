@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./dorothea.css";
 import FirstLetter from "./Data";
 
-const Dorothea = () => {
+const Her = () => {
     const [toggleState, setToggleState] = useState(0);
 
     const toggleTab = (index) => {
@@ -11,7 +11,7 @@ const Dorothea = () => {
 
     return (
         <section className="services section" id="services">
-            <h2 className="section__title">Dorothea</h2>
+            <h2 className="section__title">Her</h2>
             <span className="section__subtitle">Her</span>
 
             <div className="services__container container grid">
@@ -53,7 +53,7 @@ const Dorothea = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Hey Dorothea </h3>
+                            <h3 className="services__modal-title">Hey Her </h3>
                             <p className="services__modal-description">It's 8/21/2024 and I still love you infinetely. I have no idea when you'll see this, but somehow please leave me a sign :)</p>
 
                             {/* <ul className="services__modal-services grid">
@@ -154,4 +154,4 @@ const Dorothea = () => {
     )
 }
 
-export default Dorothea
+export default Her

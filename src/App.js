@@ -46,7 +46,7 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import MainPage from './components/MainPage'; // Import the MainPage component
 import Bitmovin from './components/bitmovin/bitmovin'; // Keep the Bitmovin component import
 import NotFoundPage from './components/notFoundPage/NotFoundPage'; // Import the NotFoundPage component
-import Dorothea from './components/dorothea/Dorothea'; // Keep the Her component import
+import Her from './components/dorothea/Dorothea'; // Keep the Her component import
 
 const App = () => {
   return (
@@ -55,7 +55,7 @@ const App = () => {
       <main className='main'>
         <Routes>
           <Route path="/" element={<MainPage/>} /> {/* Use MainPage on the main route */}
-          <Route path="/dorothea" element={<Dorothea/>} /> {/* Her page route */}
+          <Route path="/dorothea" element={<Her/>} /> {/* Her page route */}
           <Route path="/bitmovin" element={<Bitmovin/>} /> {/* Bitmovin page route */}
           <Route path="*" element={<NotFoundPage/>} />
         </Routes>
