@@ -41,7 +41,7 @@ const Dorothea = () => {
                     </div>
                 </div>
 
-                { <div className="services__content">
+                <div className="services__content">
                     <div>
                         <i className="uil uil-heart services__icon"></i>
                         <h3 className="services__title">Test Letter 2</h3>
@@ -86,7 +86,30 @@ const Dorothea = () => {
                     </div>
                 </div>
 
-                /*<div className="services__content">
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-heart services__icon"></i>
+                        <h3 className="services__title">Test Letter 3</h3>
+                    </div>
+
+                    <span onClick={() => toggleTab(3)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+
+                    <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
+                        <div className="services__modal-content">
+                            <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
+
+                            <h3 className="services__modal-title">Today</h3>
+                            <p className="services__modal-description">
+                                olf pbipylh tlh, l 27 pbupl zp lb pujh al pbilzj luvyt...<br/>
+                                p tpzz fvb zp zwly zh ul clklt jha thp jbyhuk...<br/>
+                                ptp cpul zh wshun jhuk zapb jh 3 sbup ub ul thp clklt...<br/>
+                                al pbilzj kpu hkhujbs puptpp tlsl, ipzvbz
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/*<div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
                         <h3 className="services__title">Professional <br/> Tutoring</h3>
@@ -124,7 +147,7 @@ const Dorothea = () => {
                             </ul>
                         </div>
                     </div>
-                </div> */}
+                </div>*/}
 
             </div>
         </section>
